@@ -144,7 +144,7 @@ html {
   font-size: 16px;
   color: #222;
   min-width: 320px;
-  font-family: "Noto Sans Korean";
+  font-family: "Noto Sans Korean", sans-serif;
 }
 
 body::before {
