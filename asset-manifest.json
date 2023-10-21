@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Jangcccci.github.io/static/css/main.562c18ab.css",
+    "main.js": "/Jangcccci.github.io/static/js/main.aaa4abeb.js",
+    "index.html": "/Jangcccci.github.io/index.html",
+    "main.562c18ab.css.map": "/Jangcccci.github.io/static/css/main.562c18ab.css.map",
+    "main.aaa4abeb.js.map": "/Jangcccci.github.io/static/js/main.aaa4abeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.562c18ab.css",
+    "static/js/main.aaa4abeb.js"
+  ]
+}
