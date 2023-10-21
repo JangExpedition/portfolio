@@ -1,0 +1,202 @@
+.App {
+  max-width: 50rem;
+  margin: auto;
+  height: 300vh;
+}
+
+/* MainSection */
+.MainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+
+.main-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #6835fc;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+#main-image {
+  width: 100%;
+}
+
+section {
+  padding: 0 2rem;
+}
+
+.hello {
+  width: 100%;
+  font-size: 5rem;
+  line-height: 1.1;
+  font-weight: 900;
+  margin: 0.67em 0;
+}
+
+.point-color {
+  color: #6835fc;
+}
+
+#about-me {
+  text-align: center;
+  font-size: 1.2rem;
+  opacity: 0.6;
+  font-weight: 400;
+  margin: 1.5em 0;
+}
+
+.image-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#down-arrow {
+  width: 3rem;
+  animation: upAndDown 1s infinite;
+  margin-bottom: 2rem;
+}
+
+#introduce {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Experience */
+@keyframes leftToRightSlide {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-50px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.leftToRight {
+  animation: leftToRightSlide 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rightToLeftSlide {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(50px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.rightToLeft {
+  animation: rightToLeftSlide 2s;
+  animation-fill-mode: forwards;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+#left-slider {
+  opacity: 0;
+}
+
+#right-slider {
+  opacity: 0;
+}
+
+.row-left {
+  width: 50%;
+}
+
+.row-right {
+  width: 50%;
+}
+
+.first-menu-name {
+  font-size: 3rem;
+  margin: 4rem 0 2rem;
+  font-weight: 700;
+}
+
+.second-menu-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.third-menu-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.time {
+  margin-bottom: 1.5rem;
+}
+
+.wrapper {
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 50rem) {
+  body,
+  html {
+    font-size: 14px;
+  }
+
+  .hello {
+    font-size: 3rem;
+  }
+
+  #about-me,
+  .image-wrapper {
+    display: none;
+  }
+
+  #introduce {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  #experience {
+    flex-direction: column;
+  }
+
+  #left-slider,
+  #right-slider {
+    width: 100%;
+    opacity: 1;
+  }
+}
