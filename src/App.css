@@ -188,4 +188,12 @@ section {
   #experience {
     flex-direction: column;
   }
+
+  #left-slider {
+    width: 100%;
+  }
+
+  #right-slider {
+    width: 50%;
+  }
 }
