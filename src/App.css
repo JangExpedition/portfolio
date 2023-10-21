@@ -180,11 +180,6 @@ section {
     font-size: 3rem;
   }
 
-  #about-me,
-  .image-wrapper {
-    display: none;
-  }
-
   #introduce {
     font-size: 1.5rem;
     font-weight: 500;
@@ -192,11 +187,5 @@ section {
 
   #experience {
     flex-direction: column;
-  }
-
-  #left-slider,
-  #right-slider {
-    width: 100%;
-    opacity: 1;
   }
 }

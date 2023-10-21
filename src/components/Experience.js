@@ -5,7 +5,7 @@ const Experience = ({ scrollY, clientWidth }) => {
   const rightSlider = useRef();
 
   useEffect(() => {
-    if (clientWidth > 320) {
+    if (clientWidth > 800) {
       if (scrollY < 400) {
         leftSlider.current.classList.remove("leftToRight");
         rightSlider.current.classList.remove("rightToLeft");
@@ -14,15 +14,16 @@ const Experience = ({ scrollY, clientWidth }) => {
         rightSlider.current.classList.add("rightToLeft");
       }
     } else {
-      if (scrollY < 400) {
+      if (scrollY < 200) {
         leftSlider.current.classList.remove("leftToRight");
         rightSlider.current.classList.remove("rightToLeft");
-      } else if (scrollY >= 400) {
+      } else if (scrollY >= 200 && scrollY < 400) {
         leftSlider.current.classList.add("leftToRight");
+      } else if (scrollY >= 400) {
         rightSlider.current.classList.add("rightToLeft");
       }
     }
-  }, [scrollY]);
+  }, [scrollY, clientWidth]);
 
   return (
     <section id="experience" className="row">
