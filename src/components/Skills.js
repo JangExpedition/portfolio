@@ -98,7 +98,7 @@ const Skills = () => {
   return (
     <section className="Skills">
       <h2 className="first-menu-name">
-        Stacks<span className="point-color">.</span>
+        Skills<span className="point-color">.</span>
       </h2>
       <div className="icons">
         <canvas ref={canvasRef}></canvas>
