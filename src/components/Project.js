@@ -1,10 +1,13 @@
+import Stacks from "./Skills";
+
 const Project = () => {
   return (
-    <section>
-      <h2 className="first-menu-name">
-        Project<span className="point-color">.</span>
-      </h2>
-    </section>
+    <div className="Project">
+      <div className="project-images"></div>
+      <div className="project-title-wrapper">
+        <h1 className="project-title">1914 translation by H. Rackham</h1>
+      </div>
+    </div>
   );
 };
 

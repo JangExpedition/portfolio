@@ -1,10 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 import MainSection from "./components/MainSection";
 import Experience from "./components/Experience";
-import Project from "./components/Project";
+import Projects from "./components/Projects";
 
 import "./App.css";
+import Skills from "./components/Skills";
 
 function App() {
   const [scrollY, setScrollY] = useState(window.scrollY);
@@ -32,7 +33,8 @@ function App() {
     <div className="App">
       <MainSection scrollY={scrollY} />
       <Experience scrollY={scrollY} clientWidth={clientWidth} />
-      <Project />
+      <Skills />
+      <Projects />
     </div>
   );
 }

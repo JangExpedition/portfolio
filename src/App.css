@@ -197,3 +197,39 @@ section {
     width: 50%;
   }
 }
+
+/* Project */
+.Project {
+  padding-top: 3rem;
+}
+
+.Project .project-images {
+  width: 100%;
+  height: 100vmin;
+  border: 6px double #6835fc;
+}
+
+.Project .project-title-wrapper {
+  width: 100%;
+  background-color: #6835fc;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+/* Skills */
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons > canvas {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.02);
+}
