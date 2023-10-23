@@ -1,11 +1,10 @@
-import Stacks from "./Skills";
-
-const Project = () => {
+const Project = ({ project }) => {
   return (
     <div className="Project">
       <div className="project-images"></div>
-      <div className="project-title-wrapper">
-        <h1 className="project-title">1914 translation by H. Rackham</h1>
+      <div className="project-wrapper">
+        <h1 className="project-title">{project.title}</h1>
+        <p className="project-content">{project.content}</p>
       </div>
     </div>
   );

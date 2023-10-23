@@ -198,24 +198,48 @@ section {
   }
 }
 
+/* Projects */
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 500px;
+  padding: 2rem 0;
+  background-color: red;
+}
+
 /* Project */
 .Project {
-  padding-top: 3rem;
+  width: 300px;
+  height: 100%;
 }
 
 .Project .project-images {
   width: 100%;
-  height: 100vmin;
+  height: 50%;
   border: 6px double #6835fc;
 }
 
-.Project .project-title-wrapper {
+.Project .project-wrapper {
   width: 100%;
+  height: 50%;
+}
+
+.Project .project-wrapper .project-title {
+  width: 100%;
+  height: 50%;
   background-color: #6835fc;
   color: #fff;
   text-align: center;
   padding: 3rem 0;
-  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.Project .project-wrapper .project-content {
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
 }
 
 /* Skills */
