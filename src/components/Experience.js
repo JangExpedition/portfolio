@@ -41,8 +41,13 @@ const Experience = ({ scrollY, clientWidth }) => {
           </div>
           <div className="row-right">
             <div className="wrapper">
+              <h3 className="second-menu-name">풍산 시스템</h3>
+              <p className="time">2023.11.01 ~ 현재</p>
+              <h4 className="third-menu-name">PLM 시스템 구축</h4>
+            </div>
+            <div className="wrapper">
               <h3 className="second-menu-name">LUTRONIC</h3>
-              <p className="time">2023.07.01 ~ 현재</p>
+              <p className="time">2023.07.01 ~ 2023.10.31</p>
               <h4 className="third-menu-name">PDM 시스템 고도화</h4>
             </div>
             <div className="wrapper">
